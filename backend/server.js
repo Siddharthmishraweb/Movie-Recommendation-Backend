@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 5000;
 
 app.use(bodyParser.json());
 
-mongoose.connect('mongodb://localhost/movie-recommendation', {
+mongoose.connect('mongodb+srv://mishrasiddharth1999:Reenter2@movie-cluster.oqg8uqt.mongodb.net/?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
